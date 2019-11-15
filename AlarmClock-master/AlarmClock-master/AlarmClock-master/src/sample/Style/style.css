@@ -1,0 +1,33 @@
+#scene
+{
+    -fx-background-image: url("../images/background.jpg");
+    -fx-background-size: 85% 85%;
+    -fx-background-position : center;
+}
+
+.oneButton
+{
+    -fx-border-color: #000000;
+    -fx-border-radius: 12pt;
+
+    -fx-background-color: #2f00c6;
+    -fx-background-radius: 12pt;
+
+    -fx-font-family: Verdana, Arial, sans-serif;
+    -fx-font-size: 12;
+    -fx-text-fill: #00dfdf;
+    -fx-font-weight: bold;
+
+}
+
+.oneButton:hover {
+     -fx-border-color: #00dfdf;
+     -fx-effect: dropshadow(gaussian, #00dfdf, 10, 0, 0, 0);
+     /*-fx-background-color: #6282CB;*/
+     -fx-background-color: #00dfdf;
+     -fx-text-fill: #2f00c6;
+
+}
+
+
+
